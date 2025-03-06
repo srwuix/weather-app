@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <button>
+          <img src="images/search.png" />
+        </button>
+      </div>
+      <div class="error">
+        <p>Invalid city name</p>
+      </div>
+      <div class="weather">
+        <img src="images/mist.png" class="weather-icon" />
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">ahvaz</h2>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind.png" />
+            <div>
+              <p class="wind">15 k/h</p>
+              <p>wind speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info-app">
+        <h2 class="tittle-app">weather app</h2>
+        <p class="text-tittle">
+          برای بررسی آب و هوای شهر خود نام شهر را تایپ و روی دکمه سرچ کلیک کنید
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
